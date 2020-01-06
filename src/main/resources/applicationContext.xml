@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	<bean id="springcore" name="springcore" class="com.spring.core.examples.bean.lifecycle.SpringBeanLifeCycleExamples" init-method="init" destroy-method="destory1"></bean>
+	<bean id="beanpostprocessor" name="beanpostprocessor" class="com.spring.core.examples.bean.lifecycle.BeanPostProcessorsExample"></bean>
+</beans>
